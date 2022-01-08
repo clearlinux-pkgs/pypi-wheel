@@ -21,7 +21,7 @@ BuildRequires : pypi-pluggy
 BuildRequires : pypi-pytest
 BuildRequires : pypi-tox
 BuildRequires : pypi-virtualenv
-
+Provides: wheel
 %description
 =====
         
