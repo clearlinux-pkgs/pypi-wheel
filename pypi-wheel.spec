@@ -4,7 +4,7 @@
 #
 Name     : pypi-wheel
 Version  : 0.38.4
-Release  : 111
+Release  : 112
 URL      : https://files.pythonhosted.org/packages/a2/b8/6a06ff0f13a00fc3c3e7d222a995526cbca26c1ad107691b6b1badbbabf1/wheel-0.38.4.tar.gz
 Source0  : https://files.pythonhosted.org/packages/a2/b8/6a06ff0f13a00fc3c3e7d222a995526cbca26c1ad107691b6b1badbbabf1/wheel-0.38.4.tar.gz
 Summary  : A built-package format for Python
