@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-wheel
-Version  : 0.41.1
-Release  : 115
-URL      : https://files.pythonhosted.org/packages/c9/3d/02a14af2b413d7abf856083f327744d286f4468365cddace393a43d9d540/wheel-0.41.1.tar.gz
-Source0  : https://files.pythonhosted.org/packages/c9/3d/02a14af2b413d7abf856083f327744d286f4468365cddace393a43d9d540/wheel-0.41.1.tar.gz
+Version  : 0.41.2
+Release  : 116
+URL      : https://files.pythonhosted.org/packages/a4/99/78c4f3bd50619d772168bec6a0f34379b02c19c9cced0ed833ecd021fd0d/wheel-0.41.2.tar.gz
+Source0  : https://files.pythonhosted.org/packages/a4/99/78c4f3bd50619d772168bec6a0f34379b02c19c9cced0ed833ecd021fd0d/wheel-0.41.2.tar.gz
 Summary  : A built-package format for Python
 Group    : Development/Tools
 License  : MIT
@@ -65,10 +65,10 @@ python3 components for the pypi-wheel package.
 
 
 %prep
-%setup -q -n wheel-0.41.1
-cd %{_builddir}/wheel-0.41.1
+%setup -q -n wheel-0.41.2
+cd %{_builddir}/wheel-0.41.2
 pushd ..
-cp -a wheel-0.41.1 buildavx2
+cp -a wheel-0.41.2 buildavx2
 popd
 
 %build
@@ -76,7 +76,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1691429380
+export SOURCE_DATE_EPOCH=1692716219
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
